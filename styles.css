@@ -1,0 +1,165 @@
+/*neutral*/
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display";
+}
+
+.container {
+  width: 280px;
+  height: 485px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  margin-top: -242.5px;
+  left: 50%;
+  margin-left: -140px;
+  border-radius: 20px;
+  box-shadow: 0px 31px 33px 0px rgba(164, 154, 200, 0.3294117647);
+}
+
+.container-content {
+  width: 220px;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#heroimg {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: 900;
+}
+
+p {
+  line-height: 25px;
+  font-size: 13px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.annual-plan {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  width: 220px;
+  margin-top: 10px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.annual-plan-content {
+  padding: 10px 10px 10px 10px;
+}
+
+.annual-plan a {
+  font-weight: 500;
+  color: hsl(223, 47%, 23%);
+  text-decoration: underline;
+  float: right;
+  margin-left: -25px;
+}
+
+#iconmusic {
+  float: left;
+  height: 41px;
+}
+
+.annual-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.annual-price a {
+  position: relative;
+  left: 57px;
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+
+.annual-price-left {
+  margin: 0 0 0 0;
+  position: relative;
+  left: 15px;
+  top: 3px;
+}
+
+.annual-price-left h3 {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.annual-price-left p {
+  font-size: 13px;
+}
+
+#btn {
+  margin-top: 23px;
+  margin-bottom: 23px;
+  border: none;
+  padding: 5px;
+  color: #fff;
+  border-radius: 6px;
+  background-color: hsl(245, 75%, 52%);
+  margin-left: 3px;
+  margin-right: 5px;
+  padding: 12px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  width: 100%;
+  box-shadow: 0px 31px 33px 0px rgba(164, 154, 200, 0.3294117647);
+}
+
+#cancel {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 23px;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container {
+    width: 320px;
+    height: 510px;
+  }
+  .container-content {
+    width: 75%;
+  }
+  p {
+    line-height: 20px;
+  }
+  h3 {
+    font-weight: 700;
+  }
+  .annual-plan {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=styles.css.map */
