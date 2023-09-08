@@ -138,6 +138,7 @@ h3 {
 #btn:hover {
   text-decoration: none;
   background-color: #6568c0;
+  cursor: pointer;
 }
 
 #cancel {
