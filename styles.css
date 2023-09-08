@@ -78,6 +78,11 @@ h3 {
   margin-left: -25px;
 }
 
+.annual-plan a:hover {
+  text-decoration: none;
+  color: #6568c0;
+}
+
 #iconmusic {
   float: left;
   height: 41px;
@@ -130,12 +135,21 @@ h3 {
   box-shadow: 0px 31px 33px 0px rgba(164, 154, 200, 0.3294117647);
 }
 
+#btn:hover {
+  text-decoration: none;
+  background-color: #6568c0;
+}
+
 #cancel {
   color: hsl(224, 23%, 55%);
   text-decoration: none;
   font-weight: 700;
   font-size: 13px;
   margin-bottom: 23px;
+}
+
+#cancel:hover {
+  color: rgb(66, 66, 69);
 }
 
 @media (min-width: 1440px) {
